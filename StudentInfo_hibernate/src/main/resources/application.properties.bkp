@@ -1,0 +1,12 @@
+logging.level.org.springframework.web=DEBUG
+# Database
+db.driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+db.url: jdbc:sqlserver://localhost;databaseName=ClientODS
+db.username: Test 
+db.password: pwd()321
+
+# Hibernate
+hibernate.dialect: org.hibernate.dialect.SQLServer2005Dialect
+hibernate.show_sql: true
+hibernate.hbm2ddl.auto: update
+entitymanager.packagesToScan: com
